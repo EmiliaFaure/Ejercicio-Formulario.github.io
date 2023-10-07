@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    
+
+<h2> Formulario de registro</h2>
+<br>
+<form action="show_data.html" target="_blank">
+   
+    <label for = "firstname"> Nombre </label> 
+    <input type="text" name="firstname" placeholder="ingresa aqui tu nombre...."> 
+   
+    <label for = "lastname"> Apellido </label> 
+    <input type="text" name="lastname" placeholder="ingresa aqui tu apellido..."> <br><br>
+
+    <label for = "direccion"> Direccón </label> 
+    <input type="text" name="direccion" placeholder="ingresa aqui tu direccón...">
+
+    <label for = "ciudad"> Ciudad </label> 
+    <input type="text" name="ciudad" placeholder="ingresa aqui tu ciudad..."><br><br>
+
+    <label for = "CodigoPostal"> Código Postal </label> 
+    <input type="number" name="CodigoPostal" placeholder="ingresa aqui tu Codigo Postal..."><br><br>
+
+    <label for = "DNI"> D.N.I: </label> 
+    <input type="number" name="DNI" placeholder="ingresa aqui tu D.N.I...">
+
+    <label for = "FechaNacimiento"> Fecha de Naciemiento </label> 
+    <input type="date" name="FechaNacimiento" placeholder="ingresa aqui tu fecha de nacimiento...">
+
+<p>
+Género:
+<input type="radio" name="genero" value="hombre" checked> Hombre
+<input type="radio" name="genero" value="mujer" checked> Mujer
+<input type="radio" name="genero" value="otro" checked> Otro
+</p>
+
+<label for = "telefono"> Telefono </label> 
+<input type="tel" name="telefono" placeholder="ingresa aqui tu telefono...">
+
+<label for = "mail"> e-mail </label> 
+<input type="email" name="mail" placeholder="ingresa aqui tu e-mail..."><br><br>
+
+<label for = "contraseña"> Contraseña </label> 
+<input type="password" name="contraseña" placeholder="contraseña...">
+<br><br>
+
+Envio:
+<input type="checkbox" name="retiro" value="retiro" checked> Retiro Sucursal
+<input type="checkbox" name="envio" value="envio" checked>Envio a domicilio
+
+<br><br>
+
+Seleccione Turno de envio:
+<select name="turno">
+<option> Mañana</option>
+<option> Tarde</option>
+<option> Noche</option>
+</select>
+<br><br>
+
+Deja tu comentario: <br><br>
+<textarea name="comentario" rows="15" cols="30"> 
+</textarea>
+
+
+<br><br>
+
+
+
+<input type="submit" value ="Enviar">
+
+</form>
+
+
+
+</body>
+</html>
